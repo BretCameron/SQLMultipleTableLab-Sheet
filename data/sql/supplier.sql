@@ -1,0 +1,7 @@
+INSERT INTO Supplier (SupplierNumber, SupplierName) VALUES
+  (101, 'Global Maps and Books'),
+  (102, 'Nepalese Corp.'),
+  (103, 'All Sports Manufacturing'),
+  (104, 'Sweatshops Unlimited'),
+  (105, 'All Points inc.'),
+  (106, 'Sao Paulo Manufacturing');
