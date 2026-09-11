@@ -10,7 +10,7 @@ CREATE TABLE Employee (
     EmployeeName VARCHAR(10) NOT NULL,
     EmployeeSalary INTEGER UNSIGNED NOT NULL,
     DepartmentName VARCHAR(10) NOT NULL REFERENCES Department,
-    BossNumber SMALLINT UNSIGNED REFERENCES Employee,
+    BossNumber SMALLINT UNSIGNED REFERENCES Employee, -- removed NOT NULL constraint as one row does not have a BossNumber
     PRIMARY KEY (EmployeeNumber)
 );
 
